@@ -115,11 +115,12 @@ ping -c 4 10.0.0.1
 ping -c 4 8.8.8.8
 ping -c 4 google.com
 ```
+## Verification Results:
 
-- `ip a` confirmed the interface has the IP `10.0.0.2/24`
-- Ping to `10.0.0.1` confirmed gateway connectivity
-- Ping to `8.8.8.8` confirmed internet access
-- Ping to `google.com` confirmed DNS resolution
+    ip a confirmed that the eth0 interface has the IP address 10.0.0.3/24.
+    Ping to 10.0.0.1 confirmed gateway connectivity.
+    Ping to 8.8.8.8 confirmed internet connectivity.
+    Ping to google.com confirmed DNS resolution.
 
 ![Step 6 - Verify Network Configuration](https://raw.githubusercontent.com/ImYasir02/Project-Networkwalks-Week-1/7f087ac2abf3548732b063c92841aa6efcc18edd/Task%20-%206%20Verify%20Network%20Configuration.png)
 
