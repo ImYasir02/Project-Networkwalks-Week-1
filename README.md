@@ -1,5 +1,3 @@
-# Project-Networkwalks-Week-1
-
 **Project: Cybersecurity Lab Environment Setup**  
 **Type: Internship Task – Week 1**  
 **Batch:** B083
@@ -127,7 +125,7 @@ ping -c 4 google.com
 
 ### Step 7: Take a VM Snapshot
 
-Took a snapshot of the VM after completing the setup, so the lab can be restored to a clean working state at any time.
+Took a snapshot of the VM after installing Kali Linux and configuring its IP address, so the lab can be restored to a clean working state at any time.
 
 - **Snapshot Name:** My Fresh Kali Linux after installation
 - **Description:** It is working good as of today. I have set up the IP address as 10.0.0.2.
@@ -178,4 +176,4 @@ Batch: B083
 | Program | NetworkWalks Cybersecurity           |
 | Batch   | B083                                 |
 | Week    | 01                                   |
-| Project | Cybersecurity Lab Environment Setup  | 
+| Project | Cybersecurity Lab Environment Setup  |
