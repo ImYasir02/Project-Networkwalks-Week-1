@@ -112,4 +112,70 @@ Configured the Kali Linux virtual machine to use the created NAT Network.
 Verified the network interface and IP configuration using:
 
 ```bash
-ip a 
+ip a
+ping -c 4 10.0.0.1
+ping -c 4 8.8.8.8
+ping -c 4 google.com
+```
+
+- `ip a` confirmed the interface has the IP `10.0.0.2/24`
+- Ping to `10.0.0.1` confirmed gateway connectivity
+- Ping to `8.8.8.8` confirmed internet access
+- Ping to `google.com` confirmed DNS resolution
+
+![Step 6 - Verify Network Configuration](https://raw.githubusercontent.com/ImYasir02/Project-Networkwalks-Week-1/7f087ac2abf3548732b063c92841aa6efcc18edd/Task%20-%206%20Verify%20Network%20Configuration.png)
+
+### Step 7: Take a VM Snapshot
+
+Took a snapshot of the VM after completing the setup, so the lab can be restored to a clean working state at any time.
+
+- **Snapshot Name:** My Fresh Kali Linux after installation
+- **Description:** It is working good as of today. I have set up the IP address as 10.0.0.2.
+
+![Step 7 - VM Snapshot](https://raw.githubusercontent.com/ImYasir02/Project-Networkwalks-Week-1/7f087ac2abf3548732b063c92841aa6efcc18edd/Task%20%207%20-%20%20Snapshot.png)
+
+---
+
+## Conclusion
+
+The lab environment is ready. VirtualBox and Kali Linux were set up, a custom NAT Network (`10.0.0.0/24`) was created, a static IP was configured, connectivity was verified, and a snapshot was saved for recovery.
+
+---
+
+## Documentation
+
+The entire lab setup process, configurations, screenshots, and network settings have been documented to maintain a clear record of the project.
+
+---
+
+## Security & Ethical Use
+
+This laboratory is intended strictly for educational and authorized cybersecurity practice only.
+
+---
+
+## Tools & Resources
+
+- [7-Zip](https://7-zip.org/download.html)
+- [Oracle VirtualBox](https://virtualbox.org/wiki/Downloads)
+- [Kali Linux](https://kali.org/get-kali)
+- [NetworkWalks](https://networkwalks.com/)
+
+---
+
+## Author
+
+**Md Yasir Ansari**  
+Batch: B083  
+[LinkedIn](https://linkedin.com/in/mdyasir-security)
+
+---
+
+## Project Information
+
+| Detail  | Value                                |
+|---------|--------------------------------------|
+| Program | NetworkWalks Cybersecurity           |
+| Batch   | B083                                 |
+| Week    | 01                                   |
+| Project | Cybersecurity Lab Environment Setup  | 
