@@ -1,6 +1,6 @@
 **Project: Cybersecurity Lab Environment Setup**  
 **Type: Internship Task – Week 1**  
-**Batch:** B083
+**Batch:** B084
 
 ---
 
@@ -165,7 +165,7 @@ This laboratory is intended strictly for educational and authorized cybersecurit
 ## Author
 
 **Md Yasir Ansari**  
-Batch: B083  
+Batch: B084  
 [LinkedIn](https://linkedin.com/in/mdyasir-security)
 
 ---
@@ -175,6 +175,6 @@ Batch: B083
 | Detail  | Value                                |
 |---------|--------------------------------------|
 | Program | NetworkWalks Cybersecurity           |
-| Batch   | B083                                 |
+| Batch   | B084                                 |
 | Week    | 01                                   |
 | Project | Cybersecurity Lab Environment Setup  |
